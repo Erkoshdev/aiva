@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Title</title>
+  <link rel="shortcut icon" href="" type="image/x-icon">
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="header-row">
+      <button class="btn-plain toggle-mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a href="/" class="header-logo">
+        <img src="img/logo/logo.png" alt="">
+      </a>
+      <div class="mobile-menu">
+        <button class="btn-plain close-mobile-menu">
+          <i class="icon close"></i>
+        </button>
+        <div class="header-nav">
+          <a href="/" class="header-nav-link active">Главная</a>
+          <a href="about.html" class="header-nav-link">О компании</a>
+          <a href="projects.html" class="header-nav-link">Проекты</a>
+          <a href="payment.html" class="header-nav-link">Способы покупки</a>
+          <a href="sale.html" class="header-nav-link">Акции</a>
+          <a href="contact.html" class="header-nav-link">Контакты</a>
+        </div>
+        <div class="header-social">
+          <a href="">
+            <i class="icon insta"></i>
+          </a>
+          <a href="">
+            <i class="icon facebook"></i>
+          </a>
+          <a href="">
+            <i class="icon telegram"></i>
+          </a>
+          <a href="">
+            <i class="icon tiktok"></i>
+          </a>
+        </div>
+      </div>
+      <div class="mobile-menu-overlay"></div>
+      <a href="tel:+77007100888" class="header-phone">+7 700 710 08 88</a>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="contact">
+    <div class="container">
+      <b class="title">Контакты</b>
+      <ul class="nav contact-nav" id="myTab">
+        <li class="nav-item">
+          <button class="nav-link contact-nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home">Отдел продаж</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link contact-nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile">Бухгалтерия</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link contact-nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact">Сервисная компания</button>
+        </li>
+      </ul>
+      <div class="tab-content contact-tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home">
+          <div class="contact-row">
+            <div class="contact-list">
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="icon pin"></i>
+                </div>
+                <div class="contact-item-content">
+                  <div class="contact-item-caption">
+                    <span>Адрес</span>
+                    <p>г. Астана, р-н Алматинский, Улица Е-669, 13а</p>
+                  </div>
+                  <button class="btn-stroke contact-item-btn" data-bs-toggle="modal" data-bs-target="#transferModal">Заказать трансфер</button>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="icon phone"></i>
+                </div>
+                <div class="contact-item-content">
+                  <div class="contact-item-caption">
+                    <span>Позвонить нам</span>
+                    <a href="tel:+77025300454">+7 702 530 0454</a>
+                  </div>
+                  <button class="btn-stroke contact-item-btn" data-bs-toggle="modal" data-bs-target="#callModal">Заказать обратный звонок</button>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="icon clock"></i>
+                </div>
+                <div class="contact-item-content">
+                  <div class="contact-item-caption">
+                    <span>Режим работы</span>
+                    <p>с 09:00 до 19:00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="icon mail"></i>
+                </div>
+                <div class="contact-item-content">
+                  <div class="contact-item-caption">
+                    <span>Электронная почта</span>
+                    <a href="mailto:aivagroup@info.com">aivagroup@info.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-item-icon">
+                  <i class="icon insta-lg"></i>
+                </div>
+                <div class="contact-item-content">
+                  <div class="contact-item-caption">
+                    <span>Instagram</span>
+                    <a href="#">@aivagroup</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-map">
+              <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa0bf9d1743790adcef37da8e32b16eb14e1993fea5edd7d6d7f7aef6fb05173d&amp;source=constructor" width="922" height="502" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile">2</div>
+        <div class="tab-pane fade" id="contact">3</div>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <div class="footer-top"></div>
+  <div class="footer-bottom">
+    <div class="container">
+      <a href="/" class="footer-item">AIVA Group</a>
+      <span class="footer-item">2024</span>
+      <a href="#" class="footer-item">Сайт сделан в G5</a>
+    </div>
+  </div>
+</footer>
+<div class="modals">
+  <div class="modal fade" id="transferModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button class="btn-plain modal-close-btn" data-bs-dismiss="modal">
+          <i class="icon close-gray"></i>
+        </button>
+        <div class="modal-title">
+          <b>Закажите трансфер</b>
+          <p>Закажите трансфер с любой точки города до наших объектов</p>
+        </div>
+        <div class="modal-form">
+          <div class="input-container">
+            <small>ФИО:</small>
+            <input type="text" placeholder="Введите ФИО">
+          </div>
+          <div class="input-container">
+            <small>Номер телефона:</small>
+            <input type="text" placeholder="+7 (XXX) XXX-XX-XX" class="phone-mask">
+          </div>
+          <div class="input-container">
+            <small>Адрес:</small>
+            <input type="text" placeholder="Введите адрес">
+          </div>
+        </div>
+        <button class="btn-main" data-bs-dismiss="modal">Заказать трансфер</button>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="callModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <button class="btn-plain modal-close-btn" data-bs-dismiss="modal">
+          <i class="icon close-gray"></i>
+        </button>
+        <div class="modal-title">
+          <b>Закажите звонок</b>
+          <p>Заполните данные и наши менеджера свяжутся с вами и ответят на все ваши вопросы</p>
+        </div>
+        <div class="modal-form">
+          <div class="input-container">
+            <small>ФИО:</small>
+            <input type="text" placeholder="Введите ФИО">
+          </div>
+          <div class="input-container">
+            <small>Номер телефона:</small>
+            <input type="text" placeholder="+7 (XXX) XXX-XX-XX" class="phone-mask">
+          </div>
+        </div>
+        <button class="btn-main" data-bs-dismiss="modal">Заказать звонок</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/libs.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
